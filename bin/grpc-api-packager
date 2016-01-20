@@ -126,7 +126,16 @@ var parseArgs = function parseArgs() {
       help: 'Specifies an alternate location for the deps config file\n' +
         'dependencies configures the package dependencies to include in the ' +
         ' generated package file',
-      dest: 'dependenciesFile'
+      dest: 'depsFile'
+    }
+  );
+  cli.addArgument(
+    [ '--common_protos_file' ],
+    {
+      help: 'Specifies an alternate location for the common protos config file\n' +
+        'common_protos configures the paths to include when generating ' +
+        ' common protos',
+      dest: 'commonPbFile'
     }
   );
   cli.addArgument(
