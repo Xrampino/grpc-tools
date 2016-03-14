@@ -1,4 +1,0 @@
-# This contains python package names that should always be namespace packages
-namespaces:
-  - google
-  - google.logging
