@@ -11,7 +11,7 @@ More formally, the objectives of the performance database tool can be represente
 * Providing a server to receive data from the users, and to provide data to the web front-end.
 * Displaying the data in a convenient web front end, with multiple options to analyze the data.
 
-[performance_db_script](performance_db_script/) contains the script required by the user who wishes to submit the test results to the performance database. [This](performance_db_script/ReadMe.md) contains information about the script and how to use it.
+[performance_db_script](performance_db_script/) contains the script required by the user who wishes to submit the test results to the performance database. [This](performance_db_script/README.md) contains information about the script and how to use it.
 
 [performance_db_server](performance_db_server/) contains the code and scripts for the Authentication server and the Database server. Information and instructions on how to use them can be found [here](performance_db_server/auth_server/ReadMe.md) and [here](performance_db_server/data_server/ReadMe.md) respectively.
 
